@@ -1,12 +1,5 @@
-interface Props{
-    name: string,
-    description: string,
-    image: string,
-    price: string,
-    index: number
-}
 
-export const nature: Props[] = [
+export const nature = [
     {
         "name": "NFT 1",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil neque voluptatum doloribus, quas voluptate consequatur. Officia soluta aspernatur sequi, dolore ipsam odio eos, quod modi atque culpa sed nesciunt.",
