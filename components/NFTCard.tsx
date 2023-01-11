@@ -29,7 +29,8 @@ function NFTCard({description, image, name, price, index}: Collection) {
 
     return (
         //  <Link href = '/item/item'>
-        <div className={`md:w-[18rem] md:h-[25rem] rounded-xl bg-[#ffffff] md:m-5 relative xs:w-[98%] xs:min-h-[25rem] xs:my-5 cursor-pointer ${styles.item}`} onClick = {handleCheckout}>
+        
+        <div className={`md:w-[18rem] md:h-[25rem] rounded-xl bg-[#ffffff] md:m-5 relative xs:w-[95%] xs:min-h-[25rem] xs:my-5 cursor-pointer ${styles.item}`} onClick = {handleCheckout}>
         {/* <div className={`md:w-[18rem] md:h-[25rem] rounded-xl bg-[#ffffff] m-5 relative xs:w-[95%] xs:min-h-[25rem] ${styles.item}`} onClick = {handleAddItem}> */}
             <div className={`md:w-[18rem] md:h-[18rem] overflow-hidden xs:w-full xs-h-[95vw]`}>
                 <img className={`rounded-xl md:w-auto md:h-full xs:w-full xs:h-auto ${styles.image}`} alt= '' src ={image}/>
@@ -43,9 +44,9 @@ function NFTCard({description, image, name, price, index}: Collection) {
                     <h3 className={`text-xs font-bold`}>20ETH</h3> */}
                     <h3 className={`text-sm text-[#0000008c] overflow-hidden`}>{description}</h3>
                 </div>
-                <div className={`w-full h-[30%] px-3 flex items-center justify-end border-t-2 border-[#0000002a]`}>
+                <div className={`w-full h-[30%] px-3 flex items-center justify-end border-t-[1px] border-grey`}>
                     {/* <h3 className={`text-[0.75rem] font-extralight text-[#000000d3]`}>Ends In 5 Days</h3> */}
-                    <h3 className={`text-base font-bold text-[#3578e5]`}>{price}</h3>
+                    <h3 className={`text-base font-bold text-[#1da1f2]`}>{price}</h3>
                     <img className={`w-5 h-5 rounded`} src={`/icons/ether.png`} alt={``} />
                 </div>
             </div>

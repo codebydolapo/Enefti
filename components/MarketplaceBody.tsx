@@ -103,7 +103,7 @@ function MarketplaceBody() {
 
                         <div className={`w-full md:min-h-[2rem] md:h-auto md:mb-2 flex flex-row items-center justify-start md:px-5 xs:min-h-[2rem] xs:px-2 overflow-x-scroll ${styles.detailDiv}`}>
                             <div className={`min-w-[5rem] w-auto h-[2rem] md:mr-7 flex items-end justify-start`}>
-                                <h1 className={`md:text-[1rem] text-[#353840] overflow-hidden xs:text-[0.75rem]`}>Items<b className={`text-[#3578e5]`}>: {randomNumber}</b></h1>
+                                <h1 className={`md:text-[1rem] text-[#353840] overflow-hidden xs:text-[0.75rem]`}>Items<b className={`text-[#1da1f2]`}>: {randomNumber}</b></h1>
                             </div>
                             <div className={`md:min-w-[5rem] w-auto h-[2rem] mr-7 flex items-end justify-start xs:min-w-[9rem]`}>
                                 <h1 className={`md:text-[1rem] text-[#353840] overflow-hidden xs:text-[0.75rem]`}>Created<b>: December 2022</b></h1>
@@ -112,7 +112,7 @@ function MarketplaceBody() {
                                 <h1 className={`md:text-[1rem] text-[#353840] overflow-hidden xs:text-[0.75rem]`}>Creator Fee<b>: 0%</b></h1>
                             </div>
                             <div className={`md:min-w-[5rem] w-auto h-[2rem] md:mr-7 flex items-end justify-start xs:min-w-[9rem]`}>
-                                <h1 className={`md:text-[1rem] text-[#353840] overflow-hidden xs:text-[0.75rem]`}>Chain<b className={`text-[#3578e5]`}>: Goerli</b></h1>
+                                <h1 className={`md:text-[1rem] text-[#353840] overflow-hidden xs:text-[0.75rem]`}>Chain<b className={`text-[#1da1f2]`}>: Goerli</b></h1>
                             </div>
 
                         </div>
@@ -122,27 +122,27 @@ function MarketplaceBody() {
                         <div className={`w-full md:h-[3rem] flex flex-row items-center justify-start md:mt-10 md:px-3 xs:px-1 xs-min-h-[2rem] xs:h-[2.5rem] xs:mt-5`}>
 
                             <div className={`md:min-w-[5rem] md:w-auto pr-2 h-full md:mx-3 flex flex-col items-start justify-between xs:min-w-[6rem] xs:w-auto `}>
-                                <h1 className={`md:text-xl text-[#3578e5] font-extrabold xs:text-base`}>20</h1>
+                                <h1 className={`md:text-xl text-[#1da1f2] font-extrabold xs:text-base`}>20</h1>
                                 <h1 className={`md:text-sm text-[#0000005e] font-bold xs:text-xs`}>Items</h1>
                             </div>
 
                             <div className={`md:min-w-[5rem] md:w-auto pr-2 h-full md:mx-3 flex flex-col items-start justify-between xs:min-w-[6rem] xs:w-auto`}>
-                                <h1 className={`md:text-xl text-[#3578e5] font-extrabold xs:text-base`}>1</h1>
+                                <h1 className={`md:text-xl text-[#1da1f2] font-extrabold xs:text-base`}>1</h1>
                                 <h1 className={`md:text-sm text-[#0000005e] font-bold xs:text-xs`}>Owner(s)</h1>
                             </div>
 
                             <div className={`md:min-w-[5rem] md:w-auto pr-2 h-full md:mx-3 flex flex-col items-start justify-between xs:min-w-[6rem] xs:w-auto`}>
-                                <h1 className={`md:text-xl text-[#3578e5] font-extrabold xs:text-base`}>0.11</h1>
+                                <h1 className={`md:text-xl text-[#1da1f2] font-extrabold xs:text-base`}>0.11</h1>
                                 <h1 className={`md:text-sm text-[#0000005e] font-bold xs:text-xs`}>Total Volume</h1>
                             </div>
 
                             <div className={`min-w-[5rem] w-auto px-2 h-full md:mx-3 flex flex-col items-start justify-between `}>
-                                <h1 className={`md:text-xl text-[#3578e5] font-extrabold xs:text-base`}>0</h1>
+                                <h1 className={`md:text-xl text-[#1da1f2] font-extrabold xs:text-base`}>0</h1>
                                 <h1 className={`md:text-sm text-[#0000005e] font-bold xs:text-xs`}>Floor Price</h1>
                             </div>
 
                             <div className={`min-w-[5rem] w-auto px-2 h-full md:mx-3 flex flex-col items-start justify-between`}>
-                                <h1 className={`md:text-xl text-[#3578e5] font-extrabold xs:text-base`}>###</h1>
+                                <h1 className={`md:text-xl text-[#1da1f2] font-extrabold xs:text-base`}>###</h1>
                                 <h1 className={`md:text-sm text-[#0000005e] font-bold xs:text-xs`}>Best Offer</h1>
                             </div>
 
@@ -187,7 +187,7 @@ function MarketplaceBody() {
                             <div className={`md:w-[60%] h-full flex flex-row items-center md:justify-around xs:justify-end xs:w-[50%] `}>
                                 <div className={`md:w-[30%] h-[3rem] flex border-2 border-grey rounded-lg xs:w-0`}>
                                     <div className={`w-[80%] h-full flex flex-col items-center justify-start ml-3 md:visible xs:invisible`}>
-                                        <h1 className={`md:text-base font-bold xs:text-xs capitalize text-[#3578e5]`}>{category}</h1>
+                                        <h1 className={`md:text-base font-bold xs:text-xs capitalize text-[#1da1f2]`}>{category}</h1>
                                     </div>
                                     <div className={`w-[20%] h-full flex items-center justify-center `}>
                                         <ChevronDownIcon className={`w-[1.5rem] h-auto text-[#000000be]`} />
@@ -205,7 +205,7 @@ function MarketplaceBody() {
                                     </div>
                                 </div>
                                 <div className={`md:w-[30%] h-[3rem] rounded-lg border-2 border-grey flex items-center justify-center md:px-0 xs:w-[80%] md:mx-0 xs:mx-2 xs:h-[2rem] `}>
-                                    <h1 className={`text-[#3578e5] font-bold md:text-base xs:text-sm capitalize`}>{category}</h1>
+                                    <h1 className={`text-[#1da1f2] font-bold md:text-base xs:text-sm capitalize`}>{category}</h1>
                                 </div>
                             </div>
 
@@ -214,8 +214,8 @@ function MarketplaceBody() {
                         {/* nft collection display settings up */}
 
                         <div className={`w-full min-h-[70vh] h-auto flex`}>
-                            <div className={`md:w-[100%] min-h-[33rem] h-auto flex flex-wrap items-center justify-around px-5 xs:w-[100%] relative ${styles.itemsContainer}`}>
-                                {NFTs.map(({ description, image, name, value, index, price }: any) => {
+                            <div className={`md:w-[100%] min-h-[33rem] h-auto flex flex-wrap items-center justify-around md:px-5 xs:w-[100%] relative ${styles.itemsContainer}`}>
+                                {!checkoutPopupState && NFTs.map(({ description, image, name, value, index, price }: any) => {
                                     return <NFTCard
                                         description={description}
                                         image={image}

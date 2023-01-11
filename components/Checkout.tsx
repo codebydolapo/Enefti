@@ -51,7 +51,7 @@ function Checkout() {
    
 
     return (
-        <div className={`w-[95%] md:max-h-[90vh] h-auto flex md:flex-row md:top-[5vh] bg-white xs:flex-col xs:min-h-[98vh] absolute rounded-lg xs:top-[50px] left-auto ${styles.checkout}`}>
+        <div className={`w-[95%] md:max-h-[90vh] h-auto flex md:flex-row md:top-[5vh] bg-white xs:flex-col xs:min-h-[98vh]  absolute rounded-lg xs:top-[50px] left-auto ${styles.checkout}`}>
 
             <div className={`md:w-[40%] md:h-[100vh] flex justify-center md:items-start pt-10 xs:w-[100%] xs:mb-4 xs:items-center`}>
                 <img className={`w-[90%] h-auto rounded-xl`} alt='' src={image} />
@@ -61,7 +61,7 @@ function Checkout() {
 
                 <div className={`w-full h-[12%] flex flex-row items-center justify-between`}>
                     <div className={`w-[50%] h-full flex px-5 justify-start items-center`}>
-                        <h1 className={`text-[#3c9efa] mr-1 md:text-xl font-bold xs:text-lg`}>CodeByDolapo: NFT Swarm</h1>
+                        <h1 className={`text-[#1da1f2] mr-1 md:text-xl font-bold xs:text-lg`}>CodeByDolapo: NFT Swarm</h1>
                         <img className={`md:w-8 h-auto xs:w-5`} alt='' src='/icons/verified.jpg' />
                     </div>
 
@@ -88,7 +88,7 @@ function Checkout() {
                         <h1 className={`font-bold md:text-lg xs:text-sm text-[#000000a1]`}>Owned by #{Math.floor(Math.random() * 1000)}</h1>
                     </div>
                     <div className={`w-[25%] h-full flex items-center justify-start`}>
-                        <EyeIcon className={`text-[#3c9efa] w-8 mr-1`} />
+                        <EyeIcon className={`text-[#1da1f2] w-8 mr-1`} />
                         <h1 className={`font-bold md:text-lg xs:text-sm text-[#000000a1]`}>{Math.floor(Math.random() * 1000)}K Views</h1>
                     </div>
                     <div className={`w-[25%] h-full flex items-center justify-start `}>
