@@ -68,11 +68,11 @@ function Checkout() {
                     <div className={`w-[50%] h-full px-5 flex  justify-end items-center`}>
                         <div className={`w-[12rem] h-[3rem] border-[1px] border-grey flex rounded-lg overflow-hidden`}>
                             
-                            <div className={`w-[75%] h-full flex items-center justify-center cursor-pointer`}>
-                                <h1>Close</h1>
+                            <div className={`w-[75%] h-full flex items-center justify-center cursor-pointer`} onClick = {closePopup} >
+                                <h1 >Close</h1>
                             </div>
                             <div className={`w-[25%] h-full flex items-center justify-center cursor-pointer`}>
-                                <XIcon className={`text-[#000000a1] w-[55%]`} onClick = {closePopup} />
+                                <XIcon className={`text-[#000000a1] w-[55%]`} />
                             </div>
 
                         </div>
@@ -113,13 +113,13 @@ function Checkout() {
                         </div>
 
                         <div className={`w-full h-[60%] bg-[#f5f5f5] px-5 flex justify-start items-center`}>
-                            <div className={`w-[12rem] h-[4rem] border-2 border-grey rounded-xl mr-2 bg-[#0664f0] flex items-center justify-center cursor-pointer`}  onClick = {handlePurchase}>
+                            <div className={`w-[12rem] h-[4rem] border-2 border-grey rounded-xl mr-2 bg-[#1da1f2] flex items-center justify-center cursor-pointer`}  onClick = {handlePurchase}>
                                 <CashIcon className={`text-white w-9 mr-2`} />
                                 <h1 className={`text-white text-base font-bold`}>Buy Now</h1>
                             </div>
                             <div className={`w-[12rem] h-[4rem] border-2 border-grey rounded-xl mr-2 flex items-center justify-center`}>
-                                <TagIcon className={`text-[#0664f0] w-8 mr-2`} />
-                                <h1 className={`text-[#0664f0] text-base font-bold`}>Make Offer</h1>
+                                <TagIcon className={`text-[#1da1f2] w-8 mr-2`} />
+                                <h1 className={`text-[#1da1f2] text-base font-bold`}>Make Offer</h1>
                             </div>
                         </div>
 
