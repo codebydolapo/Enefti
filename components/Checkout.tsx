@@ -51,7 +51,7 @@ function Checkout() {
    
 
     return (
-        <div className={`w-[95%] md:max-h-[90vh] h-auto flex md:flex-row md:top-[5vh] bg-white xs:flex-col xs:min-h-[98vh]  absolute rounded-lg xs:top-[50px] left-auto ${styles.checkout}`}>
+        <div className={`md:w-[95%] md:max-h-[90vh] h-auto flex md:flex-row md:top-[5vh] bg-white xs:flex-col xs:min-h-[98vh] xs:w-full absolute rounded-lg xs:top-[50px] left-auto ${styles.checkout}`}>
 
             <div className={`md:w-[40%] md:h-[100vh] flex justify-center md:items-start pt-10 xs:w-[100%] xs:mb-4 xs:items-center`}>
                 <img className={`w-[90%] h-auto rounded-xl`} alt='' src={image} />
