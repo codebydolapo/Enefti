@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "data/digitalArt.js", , "data/nature.js""data/architecture.js", "data/space.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "data/digitalArt.js", "data/nature.js", "data/architecture.js", "data/space.js"],
   "exclude": ["node_modules"]
 }
